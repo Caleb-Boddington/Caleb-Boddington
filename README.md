@@ -31,4 +31,4 @@ Both are Claude Code skills, public and MIT licensed.
 
 ### Background
 
-BA Sports Media, Cardiff Metropolitan University. I coach at Cobham RFC, which is where most of my practice at explaining technical things to people who do not want a technical explanation comes from.
+BA Sports Media, Cardiff Metropolitan University.
