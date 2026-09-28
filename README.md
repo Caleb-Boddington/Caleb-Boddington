@@ -30,7 +30,6 @@ I also proved the backups the only way that counts: a test restore, checked byte
 | Active Directory domain | Windows Server 2025, `lab.internal`, OUs for IT, Sales, Finance and HR, users bulk-created in PowerShell | Built in VirtualBox in August 2026 and taken down on 20/09/2026. Rebuilding on the server: the VM is made, Windows isn't installed yet |
 | osTicket helpdesk | IIS, PHP and MySQL, a certificate authority for secure LDAP, agents signing in with their AD accounts | Built in August 2026, taken down with the domain. Rebuilding after the domain, then working a queue of practice first-line tickets in it |
 | Microsoft 365 tenant | Entra ID users, MFA, Conditional Access, Defender basics, then Entra Connect syncing the domain up | Planned |
-| Security scan on the support desk repo | A GitHub Actions workflow running Trivy that fails the build on a finding | Planned |
 | Microsoft Sentinel | Log collection and alerting on the tenant | Planned |
 | Azure build | A cloud build, deployed and written up | Planned |
 
