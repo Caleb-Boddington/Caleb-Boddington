@@ -1,6 +1,6 @@
 ## Caleb Boddington
 
-IT Technician at behold.ai since July 2026, doing Microsoft 365 and SharePoint work. I'm moving towards cyber security, and this is where the lab work goes, including the parts that broke.
+I've been doing IT support, Microsoft 365 and SharePoint work since July 2026. I'm moving towards cyber security, and this is where the lab work goes, including the parts that broke.
 
 ### The home server
 
