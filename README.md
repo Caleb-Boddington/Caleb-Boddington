@@ -10,7 +10,7 @@ A Proxmox box in a cupboard at home, built in September 2026. Everything I build
 flowchart LR
     host["Proxmox host"]
     host --> ct["Containers: DNS filtering (AdGuard Home), media streaming,<br/>photo backup, git, uptime monitoring (Uptime Kuma)"]
-    host --> vm["Virtual machines: home automation,<br/>Windows Server lab (being rebuilt)"]
+    host --> vm["Virtual machines: Kali Linux on an isolated test network,<br/>Windows Server lab (being rebuilt)"]
     host --> bk["Nightly backups: Proxmox Backup Server and restic,<br/>to a separate drive"]
     host --> ts["Remote access for family: Tailscale"]
     kuma["Uptime Kuma alert"] --> desk["Claude investigates"]
@@ -27,7 +27,7 @@ I also proved the backups the only way that counts: a test restore, checked byte
 | --- | --- | --- |
 | Proxmox home server | Containers and VMs, DNS filtering, VPN remote access, nightly deduplicated backups | Running since September 2026 |
 | AI-assisted support desk | Uptime Kuma alerts, Claude triage through a locked-down command gate, approved fixes only | Running since 23/09/2026, [public repo](https://github.com/Caleb-Boddington/homelab-support-desk) |
-| Active Directory domain | Windows Server 2025, `lab.internal`, OUs for IT, Sales, Finance and HR, users bulk-created in PowerShell | Built in VirtualBox in August 2026 and taken down on 20/09/2026. Rebuilding on the server: the VM is made, Windows isn't installed yet |
+| Active Directory domain | Windows Server 2025, `lab.internal`, OUs for IT, Sales, Finance and HR, users bulk-created in PowerShell | Built in VirtualBox in August 2026 and taken down on 20/09/2026. Rebuilding on the server, October 2026 (in progress) |
 | osTicket helpdesk | IIS, PHP and MySQL, a certificate authority for secure LDAP, agents signing in with their AD accounts | Built in August 2026, taken down with the domain. Rebuilding after the domain, then working a queue of practice first-line tickets in it |
 | Microsoft 365 tenant | Entra ID users, MFA, Conditional Access, Defender basics, then Entra Connect syncing the domain up | Planned |
 | Microsoft Sentinel | Log collection and alerting on the tenant | Planned |
